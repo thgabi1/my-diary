@@ -28,6 +28,16 @@
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Raleway:wght@300&display=swap");
+
+.navbar {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.44303658963585435) 51%,
+    rgba(141, 175, 190, 0.10690213585434172) 100%
+  );
+}
+
 .nav-link {
   font-family: var(--primary-font);
   color: var(--coyote);
