@@ -7,12 +7,18 @@
     </div>
     <div class="buttons-container">
       <router-link
-        class="btn btn-warning me-4 btn-lg"
+        class="btn button-default-style me-4 btn-lg"
         :to="{ name: 'signinsignup' }"
+        id="get-started-button"
       >
         Get Started
       </router-link>
-      <button class="btn btn-outline-secondary me-4 btn-lg">Learn More</button>
+      <button
+        class="btn button-default-style me-4 btn-lg"
+        id="learn-more-button"
+      >
+        Learn More
+      </button>
     </div>
   </div>
 </template>
@@ -22,12 +28,16 @@
   height: 80vh;
 }
 
-.content-text {
+.content-text p {
   font-family: var(--secondary-font);
-  font-size: 1.8rem;
+  font-size: 2.3rem;
   color: var(--eggplant);
   text-transform: capitalize;
   letter-spacing: 5px;
+  animation-name: infinite-flowing-text;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
 
 .buttons-container {
@@ -35,6 +45,27 @@
 }
 
 .btn {
-  border-radius: 15px;
+  box-shadow: var(--box-shadow-2);
+  padding: 15px 5%;
+}
+
+#get-started-button {
+  background-color: #e7e4e4;
+  color: var(--coyote);
+  font-weight: bolder;
+}
+
+#learn-more-button {
+  color: var(--peachYellow);
+  font-weight: bolder;
+}
+
+@keyframes infinite-flowing-text {
+  from {
+    color: var(--eggplant);
+  }
+  to {
+    color: var(--buff);
+  }
 }
 </style>
