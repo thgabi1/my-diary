@@ -45,7 +45,7 @@
 }
 
 .btn {
-  box-shadow: var(--box-shadow-2);
+  box-shadow: var(--box-shadow);
   padding: 15px 5%;
 }
 
