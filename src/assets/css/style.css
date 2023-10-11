@@ -45,3 +45,9 @@
 .p_top {
   padding-top: 10%;
 }
+
+.input_alert {
+  color: #f4f4f4;
+  font-weight: bolder;
+  background-color: black;
+}
