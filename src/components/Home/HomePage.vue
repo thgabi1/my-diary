@@ -1,33 +1,31 @@
 <template>
-  <div class="container d-flex flex-column justify-content-center content">
-    <div class="content-text">
-      <p class="p-2">Meditate</p>
-      <p class="p-2">Share your thoughts</p>
-      <p class="p-2">Write your own story day by day</p>
-    </div>
-    <div class="buttons-container">
-      <router-link
-        class="btn button-default-style me-4 btn-lg"
-        :to="{ name: 'signinsignup' }"
-        id="get-started-button"
-      >
-        Get Started
-      </router-link>
-      <button
-        class="btn button-default-style me-4 btn-lg"
-        id="learn-more-button"
-      >
-        Learn More
-      </button>
+  <div class="center content">
+    <div class="container">
+      <div class="content-text">
+        <p class="p-2">Meditate</p>
+        <p class="p-2">Share your thoughts</p>
+        <p class="p-2">Write your own story day by day</p>
+      </div>
+      <div class="buttons-container">
+        <router-link
+          class="btn button-default-style me-4 btn-lg"
+          :to="{ name: 'signinsignup' }"
+          id="get-started-button"
+        >
+          Get Started
+        </router-link>
+        <button
+          class="btn button-default-style me-4 btn-lg"
+          id="learn-more-button"
+        >
+          Learn More
+        </button>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.content {
-  height: 80vh;
-}
-
 .content-text p {
   font-family: var(--secondary-font);
   font-size: 2.3rem;

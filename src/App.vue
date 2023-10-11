@@ -1,11 +1,10 @@
 <template>
   <app-header />
   <router-view></router-view>
+  <app-footer />
 </template>
 
-<script>
-export default {};
-</script>
+<script setup></script>
 
 <style>
 @import "./assets/css/style.css";

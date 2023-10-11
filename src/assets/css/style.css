@@ -14,15 +14,6 @@
   --secondary-font: "Comfortaa", cursive;
 }
 
-body {
-  background-image: url("../../assets/pictures/landing-page.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  font-family: var(--primary-font);
-}
-
 .button-default-style {
   background-color: var(--btn-background);
   padding: 5px 15px;
@@ -34,4 +25,23 @@ body {
 .button-default-style:hover {
   background-color: var(--btn-background-hover);
   color: #fff;
+}
+
+.content {
+  height: 100vh;
+  background-image: url("../../assets/pictures/landing-page.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: var(--primary-font);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p_top {
+  padding-top: 10%;
 }
