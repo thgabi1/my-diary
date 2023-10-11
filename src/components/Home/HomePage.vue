@@ -9,7 +9,7 @@
       <div class="buttons-container">
         <router-link
           class="btn button-default-style me-4 btn-lg"
-          :to="{ name: 'signinsignup' }"
+          :to="{ name: 'login' }"
           id="get-started-button"
         >
           Get Started

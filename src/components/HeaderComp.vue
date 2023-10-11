@@ -15,7 +15,7 @@
           </li>
           <li class="nav-item me-2">
             <router-link
-              :to="{ name: 'signinsignup' }"
+              :to="{ name: 'login' }"
               class="nav-link button-default-style"
               >Login</router-link
             >
