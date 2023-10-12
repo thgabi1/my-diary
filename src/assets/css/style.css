@@ -8,10 +8,16 @@
   --cream: #e2e8c0;
   --btn-background: #74717121;
   --btn-background-hover: #74717183;
+  --alert-color: #d82c2c;
   --box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   --brand-font: "Montserrat Alternates", sans-serif;
   --primary-font: "Raleway", sans-serif;
   --secondary-font: "Comfortaa", cursive;
+}
+
+* {
+  font-family: var(--primary-font);
+  color: var(--eggplant);
 }
 
 .button-default-style {
@@ -19,7 +25,7 @@
   padding: 5px 15px;
   border-radius: 15px;
   box-shadow: var(--box-shadow);
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in 0.5s;
 }
 
 .button-default-style:hover {
@@ -46,8 +52,11 @@
   padding-top: 10%;
 }
 
+.p_top_small {
+  padding-top: 5%;
+}
+
 .input_alert {
-  color: #f4f4f4;
+  color: var(--alert-color);
   font-weight: bolder;
-  background-color: black;
 }

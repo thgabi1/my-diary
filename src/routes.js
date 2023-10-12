@@ -10,9 +10,9 @@ const routes = createRouter({
   history: createWebHistory(),
   routes: [
     { path: "/", component: HomePage, name: "home" },
-    { path: "/login", component: Login, name: "login" },
-    { path: "/register", component: Register, name: "register" },
-    { path: "/profile/:profileId", component: ProfilePage, name: "profile" },
+    { path: "/bejelentkezes", component: Login, name: "login" },
+    { path: "/regisztracio", component: Register, name: "register" },
+    { path: "/profil/:profileId", component: ProfilePage, name: "profile" },
   ],
 });
 

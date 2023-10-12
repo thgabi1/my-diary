@@ -10,14 +10,14 @@
             <router-link
               :to="{ name: 'profile', params: { profileId: 'asd' } }"
               class="nav-link"
-              >Profile</router-link
+              >Profilom</router-link
             >
           </li>
           <li class="nav-item me-2">
             <router-link
               :to="{ name: 'login' }"
               class="nav-link button-default-style"
-              >Login</router-link
+              >Bejelentkés</router-link
             >
           </li>
         </ul>

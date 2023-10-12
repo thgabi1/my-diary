@@ -1,6 +1,7 @@
 <template>
   <footer>
-    <p>All rights reserved © {{ currentYear }} to Gabriella Tóth</p>
+    <p>Minden jog fenntartva © {{ currentYear }}</p>
+    <p>Az oldalt készítette: Tóth Gabriella</p>
   </footer>
 </template>
 
