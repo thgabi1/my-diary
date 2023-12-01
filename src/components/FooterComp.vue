@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="py-3 mt-auto">
     <p>Minden jog fenntartva © {{ currentYear }}</p>
     <p>Az oldalt készítette: Tóth Gabriella</p>
   </footer>

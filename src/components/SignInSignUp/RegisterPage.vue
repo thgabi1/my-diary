@@ -17,7 +17,9 @@
               v-model="name"
               v-slot="{ field, errors, errorMessage }"
             >
-              <label for="name" class="form-label p_top_small">Név</label>
+              <label for="name" class="form-label p_top_small"
+                >Név <span class="required">*</span></label
+              >
               <input
                 type="text"
                 class="form-control"
@@ -38,7 +40,7 @@
               v-slot="{ field, errors, errorMessage }"
             >
               <label for="email" class="form-label p_top_small"
-                >Email cím</label
+                >Email cím <span class="required">*</span></label
               >
               <input
                 type="email"
@@ -60,7 +62,7 @@
               v-slot="{ field, errors, errorMessage }"
             >
               <label for="password" class="form-label p_top_small"
-                >Jelszó</label
+                >Jelszó <span class="required">*</span></label
               >
               <input
                 type="password"
@@ -82,7 +84,7 @@
               v-slot="{ field, errors, errorMessage }"
             >
               <label for="confirmPassword" class="form-label p_top_small"
-                >Jelszó megerősítése</label
+                >Jelszó megerősítése <span class="required">*</span></label
               >
               <input
                 type="password"

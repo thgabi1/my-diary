@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar">
+  <nav class="navbar sticky-top">
     <div class="container-fluid">
       <router-link :to="{ name: 'home' }" class="navbar-brand"
         >My Diary</router-link

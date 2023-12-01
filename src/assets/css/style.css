@@ -60,3 +60,8 @@
   color: var(--alert-color);
   font-weight: bolder;
 }
+
+.required {
+  color: var(--alert-color);
+  font-size: 1.7rem;
+}
